@@ -16,7 +16,7 @@ from contextlib import asynccontextmanager
 
 from fastapi import FastAPI, HTTPException, Request, status
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import JSONResponse
+from fastapi.responses import JSONResponse, RedirectResponse
 
 from cache import drug_safety_cache
 from engine import run_safety_check
@@ -139,6 +139,10 @@ async def check_drug_safety(request: SafetyCheckRequest) -> SafetyCheckResponse:
     )
     return response
 
+
+@app.get("/", include_in_schema=False)
+async def root():
+    return RedirectResponse(url="/docs")
 
 @app.get("/health", summary="Health check")
 async def health():
