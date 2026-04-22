@@ -1,0 +1,166 @@
+{
+  "interactions": [
+    {
+      "drug_a": "warfarin",
+      "drug_b": "aspirin",
+      "severity": "high",
+      "mechanism": "Additive anticoagulant effect; aspirin inhibits platelet aggregation and displaces warfarin from plasma protein binding sites, increasing free warfarin concentration.",
+      "clinical_recommendation": "Avoid combination if possible. If necessary, monitor INR closely and watch for bleeding signs. Consider dose reduction of warfarin.",
+      "source_confidence": "high"
+    },
+    {
+      "drug_a": "warfarin",
+      "drug_b": "ibuprofen",
+      "severity": "high",
+      "mechanism": "NSAIDs inhibit COX-1, impairing platelet function. Ibuprofen also displaces warfarin from albumin, raising free drug levels. GI mucosal damage increases bleeding risk.",
+      "clinical_recommendation": "Avoid combination. Use paracetamol as analgesic alternative. If NSAID required, reduce warfarin dose and monitor INR frequently.",
+      "source_confidence": "high"
+    },
+    {
+      "drug_a": "metformin",
+      "drug_b": "alcohol",
+      "severity": "high",
+      "mechanism": "Both metformin and alcohol impair hepatic gluconeogenesis and promote lactate accumulation, significantly increasing risk of lactic acidosis.",
+      "clinical_recommendation": "Counsel patient to avoid alcohol. If acute intoxication occurs, withhold metformin and monitor lactate levels.",
+      "source_confidence": "high"
+    },
+    {
+      "drug_a": "simvastatin",
+      "drug_b": "clarithromycin",
+      "severity": "high",
+      "mechanism": "Clarithromycin inhibits CYP3A4, the primary enzyme metabolising simvastatin. Plasma levels of simvastatin rise dramatically, increasing myopathy and rhabdomyolysis risk.",
+      "clinical_recommendation": "Temporarily suspend simvastatin during clarithromycin course. Switch to pravastatin (not CYP3A4-dependent) if statin cannot be interrupted.",
+      "source_confidence": "high"
+    },
+    {
+      "drug_a": "lisinopril",
+      "drug_b": "potassium",
+      "severity": "medium",
+      "mechanism": "ACE inhibitors like lisinopril reduce aldosterone secretion, promoting potassium retention. Supplemental potassium can cause dangerous hyperkalaemia.",
+      "clinical_recommendation": "Monitor serum potassium levels. Avoid routine potassium supplementation unless documented hypokalaemia. Reduce or discontinue potassium if levels rise above 5.0 mEq/L.",
+      "source_confidence": "high"
+    },
+    {
+      "drug_a": "ssri",
+      "drug_b": "tramadol",
+      "severity": "high",
+      "mechanism": "Both increase serotonergic activity. SSRIs inhibit serotonin reuptake; tramadol inhibits norepinephrine and serotonin reuptake and is a mu-opioid agonist. Combined use risks serotonin syndrome.",
+      "clinical_recommendation": "Avoid combination. If pain management required, consider opioids with lower serotonin activity (morphine, oxycodone). Monitor for fever, agitation, clonus.",
+      "source_confidence": "high"
+    },
+    {
+      "drug_a": "fluoxetine",
+      "drug_b": "tramadol",
+      "severity": "high",
+      "mechanism": "Fluoxetine inhibits CYP2D6 reducing tramadol conversion to active O-desmethyltramadol, reducing analgesic effect, while simultaneously elevating serotonin levels risking serotonin syndrome.",
+      "clinical_recommendation": "Contraindicated combination. Use alternative analgesic. If concurrent use unavoidable, monitor closely for serotonin syndrome symptoms: hyperthermia, hyperreflexia, diaphoresis.",
+      "source_confidence": "high"
+    },
+    {
+      "drug_a": "methotrexate",
+      "drug_b": "ibuprofen",
+      "severity": "high",
+      "mechanism": "NSAIDs reduce renal blood flow and inhibit tubular secretion, decreasing methotrexate clearance. Plasma methotrexate levels rise, causing severe toxicity including myelosuppression and mucositis.",
+      "clinical_recommendation": "Contraindicated. Avoid all NSAIDs with methotrexate. Use paracetamol for pain. Monitor CBC and renal function if combination unavoidable.",
+      "source_confidence": "high"
+    },
+    {
+      "drug_a": "digoxin",
+      "drug_b": "amiodarone",
+      "severity": "high",
+      "mechanism": "Amiodarone inhibits P-glycoprotein-mediated renal tubular secretion of digoxin, raising digoxin levels by 70–100%. Amiodarone also has additive bradycardic effects.",
+      "clinical_recommendation": "Reduce digoxin dose by 50% when initiating amiodarone. Monitor digoxin serum levels and ECG for bradycardia, heart block.",
+      "source_confidence": "high"
+    },
+    {
+      "drug_a": "ciprofloxacin",
+      "drug_b": "antacid",
+      "severity": "medium",
+      "mechanism": "Divalent cations (Mg2+, Al3+, Ca2+) in antacids chelate ciprofloxacin in GI tract, reducing oral bioavailability by up to 90%.",
+      "clinical_recommendation": "Administer ciprofloxacin at least 2 hours before or 6 hours after antacids. Consider IV ciprofloxacin if oral absorption is critical.",
+      "source_confidence": "high"
+    },
+    {
+      "drug_a": "lithium",
+      "drug_b": "ibuprofen",
+      "severity": "high",
+      "mechanism": "NSAIDs reduce renal prostaglandin synthesis, decreasing renal blood flow and lithium clearance. Lithium levels can rise to toxic range within days.",
+      "clinical_recommendation": "Avoid NSAIDs in patients on lithium. Use paracetamol. If NSAID required, reduce lithium dose and monitor serum lithium levels every 2–3 days.",
+      "source_confidence": "high"
+    },
+    {
+      "drug_a": "clopidogrel",
+      "drug_b": "omeprazole",
+      "severity": "medium",
+      "mechanism": "Omeprazole inhibits CYP2C19, impeding conversion of clopidogrel to its active thiol metabolite, reducing antiplatelet efficacy by approximately 40%.",
+      "clinical_recommendation": "Use pantoprazole or famotidine as alternative gastroprotection. If omeprazole required, consider adding aspirin to compensate for reduced clopidogrel effect.",
+      "source_confidence": "high"
+    },
+    {
+      "drug_a": "sildenafil",
+      "drug_b": "nitrate",
+      "severity": "high",
+      "mechanism": "Both drugs potentiate nitric oxide-mediated vasodilation through different pathways (PDE5 inhibition vs. direct NO release), causing severe, potentially fatal hypotension.",
+      "clinical_recommendation": "Absolutely contraindicated. Do not co-administer. If a patient on sildenafil requires nitrates for acute angina, delay nitrate use by at least 24 hours.",
+      "source_confidence": "high"
+    },
+    {
+      "drug_a": "phenytoin",
+      "drug_b": "fluconazole",
+      "severity": "high",
+      "mechanism": "Fluconazole inhibits CYP2C9, the primary enzyme metabolising phenytoin. Phenytoin plasma levels rise significantly, risking toxicity (nystagmus, ataxia, confusion).",
+      "clinical_recommendation": "Monitor phenytoin levels closely. Reduce phenytoin dose pre-emptively when starting fluconazole. Consider alternative antifungal (amphotericin B).",
+      "source_confidence": "high"
+    },
+    {
+      "drug_a": "atorvastatin",
+      "drug_b": "amlodipine",
+      "severity": "low",
+      "mechanism": "Amlodipine is a weak inhibitor of CYP3A4, modestly increasing atorvastatin AUC by ~18%. Risk of myopathy is marginally elevated at higher atorvastatin doses.",
+      "clinical_recommendation": "Combination is generally acceptable. Cap atorvastatin at 40 mg/day when combined with amlodipine. Monitor for muscle pain.",
+      "source_confidence": "high"
+    },
+    {
+      "drug_a": "warfarin",
+      "drug_b": "fluconazole",
+      "severity": "high",
+      "mechanism": "Fluconazole inhibits CYP2C9 and CYP3A4, both involved in warfarin metabolism. INR can double or triple within days of concurrent use.",
+      "clinical_recommendation": "Reduce warfarin dose by 25–50% when starting fluconazole. Monitor INR every 1–2 days. Closely watch for bleeding signs.",
+      "source_confidence": "high"
+    },
+    {
+      "drug_a": "spironolactone",
+      "drug_b": "ace_inhibitor",
+      "severity": "medium",
+      "mechanism": "Both spironolactone and ACE inhibitors promote potassium retention through different mechanisms (aldosterone antagonism and reduced aldosterone secretion), risking hyperkalaemia.",
+      "clinical_recommendation": "Monitor potassium levels weekly for the first month, then monthly. Avoid concurrent use in patients with eGFR < 30 mL/min/1.73m2.",
+      "source_confidence": "high"
+    },
+    {
+      "drug_a": "azithromycin",
+      "drug_b": "hydroxychloroquine",
+      "severity": "high",
+      "mechanism": "Both drugs independently prolong the QT interval via hERG potassium channel blockade. Combination creates additive QT prolongation, increasing risk of torsades de pointes.",
+      "clinical_recommendation": "Avoid combination. If unavoidable, obtain baseline ECG, monitor QTc continuously, and correct electrolyte imbalances before initiation.",
+      "source_confidence": "high"
+    }
+  ],
+  "allergy_class_map": {
+    "penicillin": ["amoxicillin", "ampicillin", "piperacillin", "flucloxacillin", "oxacillin", "dicloxacillin", "nafcillin", "cloxacillin", "amoxicillin-clavulanate", "co-amoxiclav"],
+    "sulfa": ["sulfamethoxazole", "trimethoprim-sulfamethoxazole", "co-trimoxazole", "bactrim", "sulfadiazine", "sulfasalazine", "sulfacetamide"],
+    "cephalosporin": ["cefalexin", "cefuroxime", "cefaclor", "ceftriaxone", "cefotaxime", "cefixime", "cefpodoxime", "cefdinir"],
+    "nsaid": ["ibuprofen", "naproxen", "diclofenac", "indomethacin", "ketorolac", "celecoxib", "meloxicam", "aspirin", "mefenamic acid"],
+    "statin": ["atorvastatin", "simvastatin", "rosuvastatin", "pravastatin", "lovastatin", "fluvastatin", "pitavastatin"],
+    "fluoroquinolone": ["ciprofloxacin", "levofloxacin", "moxifloxacin", "ofloxacin", "norfloxacin", "gemifloxacin"],
+    "tetracycline": ["doxycycline", "minocycline", "tetracycline", "tigecycline", "oxytetracycline"],
+    "macrolide": ["azithromycin", "clarithromycin", "erythromycin", "roxithromycin", "spiramycin"],
+    "ace_inhibitor": ["lisinopril", "enalapril", "ramipril", "perindopril", "captopril", "fosinopril", "quinapril"],
+    "arb": ["losartan", "valsartan", "irbesartan", "candesartan", "telmisartan", "olmesartan"],
+    "beta_blocker": ["metoprolol", "atenolol", "bisoprolol", "carvedilol", "propranolol", "nebivolol"],
+    "calcium_channel_blocker": ["amlodipine", "nifedipine", "diltiazem", "verapamil", "felodipine", "lercanidipine"],
+    "ssri": ["fluoxetine", "sertraline", "escitalopram", "citalopram", "paroxetine", "fluvoxamine"],
+    "benzodiazepine": ["diazepam", "lorazepam", "alprazolam", "clonazepam", "midazolam", "nitrazepam", "temazepam"],
+    "opioid": ["tramadol", "codeine", "morphine", "oxycodone", "fentanyl", "hydrocodone", "buprenorphine"],
+    "nitrate": ["nitroglycerin", "isosorbide mononitrate", "isosorbide dinitrate", "glyceryl trinitrate"]
+  }
+}
